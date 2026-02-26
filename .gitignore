@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Reports
+reports/sql_outputs/
+reports/quality_report.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+postgres_data/
+
+# IDE
+.vscode/
+
+# Python build artifacts
+*.egg-info/
+dist/
+build/
